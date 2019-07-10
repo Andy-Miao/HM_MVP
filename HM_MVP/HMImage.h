@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HMImage.h
 //  HM_MVP
 //
 //  Created by 胡苗 on 2017/6/30.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HMImage : NSObject
+- (instancetype)initWithImage:(UIImage *)image;
+@property (nonatomic) UIImage *image;
 
 @end
-

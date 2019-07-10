@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5162CC5C1F0A172B00D133E5 /* HMTimeline.m in Sources */ = {isa = PBXBuildFile; fileRef = 5162CC5B1F0A172B00D133E5 /* HMTimeline.m */; };
+		5162CC651F0A1A6200D133E5 /* HMTextPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5162CC641F0A1A6200D133E5 /* HMTextPresenter.m */; };
+		5162CC681F0A1D2300D133E5 /* HMTimelineTableViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5162CC671F0A1D2300D133E5 /* HMTimelineTableViewPresenter.m */; };
+		5162CC6B1F0A217E00D133E5 /* HMImagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5162CC6A1F0A217E00D133E5 /* HMImagePresenter.m */; };
+		5162CC6E1F0A221D00D133E5 /* HMImagesPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5162CC6D1F0A221D00D133E5 /* HMImagesPresenter.m */; };
 		5163B0441F063EB700AC2F63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B0431F063EB700AC2F63 /* main.m */; };
-		5163B0471F063EB700AC2F63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B0461F063EB700AC2F63 /* AppDelegate.m */; };
-		5163B04A1F063EB700AC2F63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B0491F063EB700AC2F63 /* ViewController.m */; };
+		5163B0471F063EB700AC2F63 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5163B0461F063EB700AC2F63 /* AppDelegate.mm */; };
 		5163B04D1F063EB700AC2F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5163B04B1F063EB700AC2F63 /* Main.storyboard */; };
 		5163B04F1F063EB700AC2F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5163B04E1F063EB700AC2F63 /* Assets.xcassets */; };
 		5163B0521F063EB700AC2F63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5163B0501F063EB700AC2F63 /* LaunchScreen.storyboard */; };
 		5163B05D1F063EB700AC2F63 /* HM_MVPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B05C1F063EB700AC2F63 /* HM_MVPTests.m */; };
 		5163B0681F063EB700AC2F63 /* HM_MVPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B0671F063EB700AC2F63 /* HM_MVPUITests.m */; };
+		5163B07F1F06492000AC2F63 /* HMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B07E1F06492000AC2F63 /* HMTableViewController.m */; };
+		5163B0821F06498A00AC2F63 /* HMTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B0811F06498A00AC2F63 /* HMTextViewController.m */; };
+		5163B0851F06499400AC2F63 /* HMImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B0841F06499400AC2F63 /* HMImageViewController.m */; };
+		5163B0891F0649C500AC2F63 /* HMText.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B0881F0649C500AC2F63 /* HMText.m */; };
+		5163B08D1F0649FD00AC2F63 /* HMImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B08C1F0649FD00AC2F63 /* HMImage.m */; };
+		5163B0901F064A2000AC2F63 /* HMImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B08F1F064A2000AC2F63 /* HMImages.m */; };
+		5163B0931F064A9600AC2F63 /* HMTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B0921F064A9600AC2F63 /* HMTextTableViewCell.m */; };
+		5163B0971F064AB600AC2F63 /* HMImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B0961F064AB600AC2F63 /* HMImageTableViewCell.m */; };
+		5163B09A1F064AC000AC2F63 /* HMImagesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B0991F064AC000AC2F63 /* HMImagesTableViewCell.m */; };
+		5163B09D1F064AD800AC2F63 /* HMImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5163B09C1F064AD800AC2F63 /* HMImageCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +49,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5162CC5A1F0A172B00D133E5 /* HMTimeline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTimeline.h; sourceTree = "<group>"; };
+		5162CC5B1F0A172B00D133E5 /* HMTimeline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTimeline.m; sourceTree = "<group>"; };
+		5162CC621F0A19BD00D133E5 /* HMPresenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMPresenterProtocol.h; sourceTree = "<group>"; };
+		5162CC631F0A1A6200D133E5 /* HMTextPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTextPresenter.h; sourceTree = "<group>"; };
+		5162CC641F0A1A6200D133E5 /* HMTextPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTextPresenter.m; sourceTree = "<group>"; };
+		5162CC661F0A1D2300D133E5 /* HMTimelineTableViewPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTimelineTableViewPresenter.h; sourceTree = "<group>"; };
+		5162CC671F0A1D2300D133E5 /* HMTimelineTableViewPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTimelineTableViewPresenter.m; sourceTree = "<group>"; };
+		5162CC691F0A217E00D133E5 /* HMImagePresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImagePresenter.h; sourceTree = "<group>"; };
+		5162CC6A1F0A217E00D133E5 /* HMImagePresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImagePresenter.m; sourceTree = "<group>"; };
+		5162CC6C1F0A221D00D133E5 /* HMImagesPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImagesPresenter.h; sourceTree = "<group>"; };
+		5162CC6D1F0A221D00D133E5 /* HMImagesPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImagesPresenter.m; sourceTree = "<group>"; };
 		5163B03F1F063EB700AC2F63 /* HM_MVP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HM_MVP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5163B0431F063EB700AC2F63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5163B0451F063EB700AC2F63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5163B0461F063EB700AC2F63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5163B0481F063EB700AC2F63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5163B0491F063EB700AC2F63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5163B0461F063EB700AC2F63 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		5163B04C1F063EB700AC2F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5163B04E1F063EB700AC2F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5163B0511F063EB700AC2F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +74,26 @@
 		5163B0631F063EB700AC2F63 /* HM_MVPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HM_MVPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5163B0671F063EB700AC2F63 /* HM_MVPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HM_MVPUITests.m; sourceTree = "<group>"; };
 		5163B0691F063EB700AC2F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5163B07D1F06492000AC2F63 /* HMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTableViewController.h; sourceTree = "<group>"; };
+		5163B07E1F06492000AC2F63 /* HMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTableViewController.m; sourceTree = "<group>"; };
+		5163B0801F06498A00AC2F63 /* HMTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTextViewController.h; sourceTree = "<group>"; };
+		5163B0811F06498A00AC2F63 /* HMTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTextViewController.m; sourceTree = "<group>"; };
+		5163B0831F06499400AC2F63 /* HMImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImageViewController.h; sourceTree = "<group>"; };
+		5163B0841F06499400AC2F63 /* HMImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImageViewController.m; sourceTree = "<group>"; };
+		5163B0871F0649C500AC2F63 /* HMText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMText.h; sourceTree = "<group>"; };
+		5163B0881F0649C500AC2F63 /* HMText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMText.m; sourceTree = "<group>"; };
+		5163B08B1F0649FD00AC2F63 /* HMImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImage.h; sourceTree = "<group>"; };
+		5163B08C1F0649FD00AC2F63 /* HMImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImage.m; sourceTree = "<group>"; };
+		5163B08E1F064A2000AC2F63 /* HMImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImages.h; sourceTree = "<group>"; };
+		5163B08F1F064A2000AC2F63 /* HMImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImages.m; sourceTree = "<group>"; };
+		5163B0911F064A9600AC2F63 /* HMTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMTextTableViewCell.h; sourceTree = "<group>"; };
+		5163B0921F064A9600AC2F63 /* HMTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMTextTableViewCell.m; sourceTree = "<group>"; };
+		5163B0951F064AB600AC2F63 /* HMImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImageTableViewCell.h; sourceTree = "<group>"; };
+		5163B0961F064AB600AC2F63 /* HMImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImageTableViewCell.m; sourceTree = "<group>"; };
+		5163B0981F064AC000AC2F63 /* HMImagesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImagesTableViewCell.h; sourceTree = "<group>"; };
+		5163B0991F064AC000AC2F63 /* HMImagesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImagesTableViewCell.m; sourceTree = "<group>"; };
+		5163B09B1F064AD800AC2F63 /* HMImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMImageCollectionViewCell.h; sourceTree = "<group>"; };
+		5163B09C1F064AD800AC2F63 /* HMImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMImageCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +121,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5162CC5E1F0A18DB00D133E5 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				5162CC621F0A19BD00D133E5 /* HMPresenterProtocol.h */,
+				5162CC631F0A1A6200D133E5 /* HMTextPresenter.h */,
+				5162CC641F0A1A6200D133E5 /* HMTextPresenter.m */,
+				5162CC661F0A1D2300D133E5 /* HMTimelineTableViewPresenter.h */,
+				5162CC671F0A1D2300D133E5 /* HMTimelineTableViewPresenter.m */,
+				5162CC691F0A217E00D133E5 /* HMImagePresenter.h */,
+				5162CC6A1F0A217E00D133E5 /* HMImagePresenter.m */,
+				5162CC6C1F0A221D00D133E5 /* HMImagesPresenter.h */,
+				5162CC6D1F0A221D00D133E5 /* HMImagesPresenter.m */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
 		5163B0361F063EB700AC2F63 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +160,11 @@
 		5163B0411F063EB700AC2F63 /* HM_MVP */ = {
 			isa = PBXGroup;
 			children = (
-				5163B0451F063EB700AC2F63 /* AppDelegate.h */,
-				5163B0461F063EB700AC2F63 /* AppDelegate.m */,
-				5163B0481F063EB700AC2F63 /* ViewController.h */,
-				5163B0491F063EB700AC2F63 /* ViewController.m */,
+				5162CC5E1F0A18DB00D133E5 /* Presenters */,
+				5163B0941F064AA600AC2F63 /* Views */,
+				5163B08A1F0649D000AC2F63 /* Models */,
+				5163B0861F06499A00AC2F63 /* ViewCtrls */,
+				5163B0761F063EF800AC2F63 /* MVPDelegate */,
 				5163B04B1F063EB700AC2F63 /* Main.storyboard */,
 				5163B04E1F063EB700AC2F63 /* Assets.xcassets */,
 				5163B0501F063EB700AC2F63 /* LaunchScreen.storyboard */,
@@ -138,6 +198,58 @@
 				5163B0691F063EB700AC2F63 /* Info.plist */,
 			);
 			path = HM_MVPUITests;
+			sourceTree = "<group>";
+		};
+		5163B0761F063EF800AC2F63 /* MVPDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5163B0451F063EB700AC2F63 /* AppDelegate.h */,
+				5163B0461F063EB700AC2F63 /* AppDelegate.mm */,
+			);
+			name = MVPDelegate;
+			sourceTree = "<group>";
+		};
+		5163B0861F06499A00AC2F63 /* ViewCtrls */ = {
+			isa = PBXGroup;
+			children = (
+				5163B07D1F06492000AC2F63 /* HMTableViewController.h */,
+				5163B07E1F06492000AC2F63 /* HMTableViewController.m */,
+				5163B0801F06498A00AC2F63 /* HMTextViewController.h */,
+				5163B0811F06498A00AC2F63 /* HMTextViewController.m */,
+				5163B0831F06499400AC2F63 /* HMImageViewController.h */,
+				5163B0841F06499400AC2F63 /* HMImageViewController.m */,
+			);
+			name = ViewCtrls;
+			sourceTree = "<group>";
+		};
+		5163B08A1F0649D000AC2F63 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5163B0871F0649C500AC2F63 /* HMText.h */,
+				5163B0881F0649C500AC2F63 /* HMText.m */,
+				5163B08B1F0649FD00AC2F63 /* HMImage.h */,
+				5163B08C1F0649FD00AC2F63 /* HMImage.m */,
+				5163B08E1F064A2000AC2F63 /* HMImages.h */,
+				5163B08F1F064A2000AC2F63 /* HMImages.m */,
+				5162CC5A1F0A172B00D133E5 /* HMTimeline.h */,
+				5162CC5B1F0A172B00D133E5 /* HMTimeline.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		5163B0941F064AA600AC2F63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5163B0911F064A9600AC2F63 /* HMTextTableViewCell.h */,
+				5163B0921F064A9600AC2F63 /* HMTextTableViewCell.m */,
+				5163B0951F064AB600AC2F63 /* HMImageTableViewCell.h */,
+				5163B0961F064AB600AC2F63 /* HMImageTableViewCell.m */,
+				5163B0981F064AC000AC2F63 /* HMImagesTableViewCell.h */,
+				5163B0991F064AC000AC2F63 /* HMImagesTableViewCell.m */,
+				5163B09B1F064AD800AC2F63 /* HMImageCollectionViewCell.h */,
+				5163B09C1F064AD800AC2F63 /* HMImageCollectionViewCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,11 +314,13 @@
 		5163B0371F063EB700AC2F63 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HM;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "胡苗";
 				TargetAttributes = {
 					5163B03E1F063EB700AC2F63 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8MN64P49U6;
 						ProvisioningStyle = Automatic;
 					};
 					5163B0571F063EB700AC2F63 = {
@@ -273,9 +387,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5163B04A1F063EB700AC2F63 /* ViewController.m in Sources */,
-				5163B0471F063EB700AC2F63 /* AppDelegate.m in Sources */,
+				5162CC681F0A1D2300D133E5 /* HMTimelineTableViewPresenter.m in Sources */,
+				5162CC5C1F0A172B00D133E5 /* HMTimeline.m in Sources */,
+				5163B0901F064A2000AC2F63 /* HMImages.m in Sources */,
+				5163B0471F063EB700AC2F63 /* AppDelegate.mm in Sources */,
+				5162CC6E1F0A221D00D133E5 /* HMImagesPresenter.m in Sources */,
+				5163B0931F064A9600AC2F63 /* HMTextTableViewCell.m in Sources */,
+				5163B0851F06499400AC2F63 /* HMImageViewController.m in Sources */,
+				5163B0971F064AB600AC2F63 /* HMImageTableViewCell.m in Sources */,
+				5163B08D1F0649FD00AC2F63 /* HMImage.m in Sources */,
 				5163B0441F063EB700AC2F63 /* main.m in Sources */,
+				5163B0891F0649C500AC2F63 /* HMText.m in Sources */,
+				5163B0821F06498A00AC2F63 /* HMTextViewController.m in Sources */,
+				5163B09D1F064AD800AC2F63 /* HMImageCollectionViewCell.m in Sources */,
+				5163B07F1F06492000AC2F63 /* HMTableViewController.m in Sources */,
+				5162CC6B1F0A217E00D133E5 /* HMImagePresenter.m in Sources */,
+				5162CC651F0A1A6200D133E5 /* HMTextPresenter.m in Sources */,
+				5163B09A1F064AC000AC2F63 /* HMImagesTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +554,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8MN64P49U6;
 				INFOPLIST_FILE = HM_MVP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrisoft.HM-MVP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,7 +567,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8MN64P49U6;
 				INFOPLIST_FILE = HM_MVP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jerrisoft.HM-MVP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +641,7 @@
 				5163B06E1F063EB700AC2F63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5163B06F1F063EB700AC2F63 /* Build configuration list for PBXNativeTarget "HM_MVPTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +650,7 @@
 				5163B0711F063EB700AC2F63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5163B0721F063EB700AC2F63 /* Build configuration list for PBXNativeTarget "HM_MVPUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +659,7 @@
 				5163B0741F063EB700AC2F63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

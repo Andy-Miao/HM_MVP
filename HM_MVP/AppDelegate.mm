@@ -17,6 +17,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    int a[3] = {10,20,30};
+//    int *p = a;
+//     printf("p1 = %d",*(++p));
+//    printf("p2 = %d",++(*p));
+//    printf("a = %d",value);
+//
+//    printf("a[0] = %d",a[0]);
+    
+    int a[5] = {1,2,3,4,5};
+    int *ptr = (int *)(&a+1);
+    
+    printf("%d\n",ptr-1);
+    printf("%d,%d",*(a+1),*(ptr-1));
     return YES;
 }
 
